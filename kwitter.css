@@ -14,22 +14,19 @@ color: white;
 text-align: center;
 font-size: 30px;
 height: 50px;
-font-family: Georgia, Times, 'Times New Roman', serif;
+font-family: 'Comic Neue';
 font-weight: 10px;
 padding-top: 0px;
 
 }
 
-#header{
-   
-    
+#header{ 
     width: 1000px;
     height: 80px;
     border-radius: 10px;
     text-align: center;
     margin-left: 100px;
    margin-top: 100px;
-    
 }
 
 #header h1{

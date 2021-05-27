@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Kwitter Room</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@797&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+    <link rel="stylesheet" type="text/css" href="kwitter_Room.css">
+    
+    </head>
+    <body>
+        <div id="inst">
+            <h3>Have read all the messages and participated in the convos, log out now by click on the fairy! </h3>
+        </div>
+        <h1 id="heads">
+            Welcome
+            <span id="user"></span>
+    Lets Chat!
+        </h1>
+        <br>
+        <span>
+            <p id="room_name_p">#Create rooms set trends♥
+                <input type="text" id="Room_name" class="form-control" placeholder="Room Name">
+            </p>
+
+        </span>
+        <span>
+           
+        </span>
+<br>
+            <img onclick="add()"id="add"src="add.png">
+<h1 id="latest">
+    🆕  Latest rooms 🆕
+</h1>
+        <div id="output">
+        </div>
+  <div id="output">
+
+  </div>
+        <img onclick="logout()" id="fly"src="fairy.png">
+        <img onclick="logout()" id="fly_two"src="fairy2.png">
+
+        <script src="kwitter_room.js"></script>
+    </body>
+    
+</html>

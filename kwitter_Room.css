@@ -1,0 +1,97 @@
+body{
+    background-image: url(background2.jpg);
+    font-family: 'Indie Flower', cursive;
+}
+#fly{
+position: fixed;
+bottom: 0%;
+right: 3px;
+ 
+    width: 300px;
+    height: 300px;
+    font-weight: 300;
+    color: black;
+}
+#fly_two{
+    position: fixed;
+    bottom: 0%;
+    left: 3px;
+     
+        width: 300px;
+        height: 300px;
+        font-weight: 300;
+        color: black;
+    }
+    
+
+#add{
+    height:50px;
+    width: 55px;
+    margin-left: 920px;
+    margin-top: -70px;
+}
+
+#latest{
+    text-align: center;
+    margin-top: -10px;
+    font-weight: bolder;
+    color: black;
+}
+
+#heads{
+    margin-top: 80px;
+    text-align: center;
+    font-size:46px;
+   border-bottom-color: black;
+   border-bottom-style: dotted;
+   border-bottom-width: 5px;
+  height: 80px;
+    width: 900px;
+    margin-left: 180px;
+    font-weight: bolder;
+    color: black;
+}
+#inst{
+    font-family: 'Indie Flower', cursive;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    font-weight: 400px;
+    padding-top: 0px;
+
+    
+    }
+   
+    #welcome{
+        
+        font-family: 'Indie Flower', cursive; 
+       text-align: center;
+    }
+    #welcome h1{
+        margin-top: 5px;
+    }
+    #room_name_p{
+        background-color: black;
+        color: white;
+        width: 330px;
+
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        text-align: center;
+        margin-left: 260px;
+        font-size: 20px;
+        height: 30px;
+    }
+    #Room_name{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 320px;
+        height: 30px;
+        margin-left: 325px;
+        margin-top: -29px;
+    }
